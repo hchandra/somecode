@@ -2,7 +2,7 @@ pipeline {
   agent {
     label "master"
   }
-  trigger {
+  triger {
     cron('H/15 * * * *')
   }
   stages {
